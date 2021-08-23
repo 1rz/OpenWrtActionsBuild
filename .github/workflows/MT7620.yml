@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: [MT7620] PHICOMM PSG1208 Build
+name: "[MT7620] PHICOMM PSG1208 Build"
 
 on:
   repository_dispatch:

@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: [MT7621] Newifi D2 Build
+name: "[MT7621] Newifi D2 Build"
 
 on:
   repository_dispatch:
@@ -27,8 +27,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .d2.config
-  DIY_P1_SH: part1-d2.sh
-  DIY_P2_SH: part2-d2.sh
+  DIY_P1_SH: common/p1-d2.sh
+  DIY_P2_SH: common/p1-d2.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
