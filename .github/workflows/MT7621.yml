@@ -9,7 +9,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Newifi D2 Build
+name: [MT7621] Newifi D2 Build
 
 on:
   repository_dispatch:
