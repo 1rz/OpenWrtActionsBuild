@@ -28,7 +28,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .d2.config
   DIY_P1_SH: common/p1-d2.sh
-  DIY_P2_SH: common/p1-d2.sh
+  DIY_P2_SH: common/p2-d2.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
