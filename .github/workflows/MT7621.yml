@@ -48,7 +48,7 @@ jobs:
       uses: actions/checkout@main
       with:
         ref: master
-        fetch-depth: 0
+#        fetch-depth: 0
 
     - name: Initialization environment
       env:
@@ -70,11 +70,11 @@ jobs:
         git clone --depth 1  $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
-    - name: Cache
-      uses: klever1988/cachewrtbuild@main
-      with:
-        ccache: 'true'
-        prefix: ${{ github.workspace }}/openwrt
+#    - name: Cache
+#      uses: klever1988/cachewrtbuild@main
+#      with:
+#        ccache: 'true'
+#        prefix: ${{ github.workspace }}/openwrt
 
     - name: Load custom feeds
       run: |
