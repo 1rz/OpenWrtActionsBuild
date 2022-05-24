@@ -29,6 +29,7 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-m
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/openwrt-dev/po2lmo.git
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # git clone https://github.com/Zxilly/UA2F package/UA2F
 
 # Add kernel config
